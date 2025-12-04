@@ -7,6 +7,8 @@ from torchvision import models
 import torchvision.transforms as T
 import pandas as pd
 
+# tes
+
 # ---------------------------------------------------
 # ✧ UI Header ✧
 # ---------------------------------------------------
@@ -85,11 +87,11 @@ transform = T.Compose([
 # ---------------------------------------------------
 # ✧ File Upload ✧
 # ---------------------------------------------------
-uploaded = st.file_uploader("Upload gambar yaa ^_^", type=["jpg","png"])
+uploaded = st.file_uploader("Upload file here", type=["jpg","png"])
 
 if uploaded:
     image = Image.open(uploaded).convert("RGB")
-    st.image(image, caption="Cute image you uploaded~ ✧")
+    st.image(image, caption="Flower image you uploaded.")
 
     img_tensor = transform(image).unsqueeze(0).to(device)
 
@@ -99,7 +101,7 @@ if uploaded:
     pred_idx = pred.argmax(dim=1).item()
     pred_class = class_names[pred_idx]
 
-    st.success(f"Prediksi: **{pred_class}** (class #{pred_idx}) ✧ ^_^")
+    st.success(f"Prediction: **{pred_class}**")
 
     # ---------------------------------------------------
     # ✧ Lookup toxicity info ✧
@@ -112,4 +114,4 @@ if uploaded:
         st.info(warning_msg)
 
     else:
-        st.info("No toxicity info available for this flower yet… nya~")
+        st.info("No toxicity info available for this flower yet…")
