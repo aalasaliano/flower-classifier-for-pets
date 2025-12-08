@@ -12,16 +12,22 @@ import base64
 # ---------------------------------------------------
 # ✧ Background ✧
 # ---------------------------------------------------
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+img_base64 = get_base64_image("stbackgroundz.jpg")
+
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("stbackgroundz.jpg");
+        background-image: url("data:image/jpg;base64,{img_base64}");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    /* Tambahkan overlay gelap supaya text keliatan */
+    
     .stApp::before {
         content: "";
         position: fixed;
