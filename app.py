@@ -48,13 +48,13 @@ st.markdown(f"""
     
     # header + title
     h1, h2, h3, h4, h5, h6 {{
-        color: brown !important;
+        color: white !important;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }}
     
     # markdown
     .stMarkdown {{
-        color: brown !important;
+        color: white !important;
     }}
     
     # file uploader
