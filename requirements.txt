@@ -1,0 +1,5 @@
+streamlit==1.28.0
+torch==2.0.1
+torchvision==0.15.2
+Pillow==11.3.0
+pandas==2.2.2
