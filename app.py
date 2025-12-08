@@ -16,7 +16,7 @@ def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("flower wallpaper 🌺.jpg")
+img_base64 = get_base64_image("annie-spratt-XibTbQFqIjY-unsplash.jpg")
 
 st.markdown(f"""
     <style>
