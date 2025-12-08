@@ -48,8 +48,8 @@ st.markdown(f"""
     }}
     
     div[data-testid="stFileUploader"] {{
-        border: 2px dashed #ff69b4;
-        background-color: rgba(255, 240, 245, 0.9);
+        border: 2px dashed #173b70;
+        background-color: rgba(220, 236, 255, 0.9);
     }}
     
     div[data-testid="stSuccess"] {{
