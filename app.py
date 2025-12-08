@@ -10,7 +10,7 @@ import base64
 
 
 # ---------------------------------------------------
-# ✧ Background ✧
+# ✧ Background & Custom CSS
 # ---------------------------------------------------
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
@@ -27,6 +27,40 @@ st.markdown(f"""
         background-repeat: no-repeat;
         background-attachment: fixed;
     }}
+    
+    div[data-testid="stVerticalBlock"] > div:not(:has(div[data-testid="stSidebar"])), 
+    div[data-testid="stFileUploader"], 
+    div[data-testid="stImage"],
+    div[data-testid="stAlert"] {{
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }}
+    
+    h1, h3, h4, .stMarkdown p {{
+        color: #1a1a1a !important;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    }}
+    
+    div[data-testid="stAlert"] * {{
+        color: inherit !important;
+    }}
+    
+    div[data-testid="stFileUploader"] {{
+        border: 2px dashed #ff69b4;
+        background-color: rgba(255, 240, 245, 0.9);
+    }}
+    
+    div[data-testid="stSuccess"] {{
+        background-color: rgba(199, 237, 203, 0.9);
+        color: #0c6b1e !important;
+    }}
+    div[data-testid="stInfo"] {{
+        background-color: rgba(220, 236, 255, 0.9);
+        color: #173b70 !important;
+    }}
+    
     </style>
     """, unsafe_allow_html=True)
 
