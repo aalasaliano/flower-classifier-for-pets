@@ -8,26 +8,30 @@ import torchvision.transforms as T
 import pandas as pd
 import base64
 
-# tes
 
 # ---------------------------------------------------
 # ✧ Background ✧
 # ---------------------------------------------------
-def get_base64_image(image_path):
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
-
-img_base64 = get_base64_image("stbackgroundz.jpg")
-
-st.markdown(f"""
+st.markdown("""
     <style>
-    .stApp {{
-        background-image: url("data:image/jpg;base64,{img_base64}");
+    .stApp {
+        background-image: url("stbackgroundz.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-    }}
+    }
+    /* Tambahkan overlay gelap supaya text keliatan */
+    .stApp::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+    }
     </style>
     """, unsafe_allow_html=True)
 
