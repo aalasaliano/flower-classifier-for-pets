@@ -27,10 +27,8 @@ st.markdown(f"""
         background-repeat: no-repeat;
         background-attachment: fixed;
     }}
-    
     </style>
     """, unsafe_allow_html=True)
-
 
 # ---------------------------------------------------
 # ✧ UI Header ✧
