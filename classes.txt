@@ -230,7 +230,7 @@ Poppy
 Potentilla
 Powder Puff
 Quaker Ladies
-Queen Cup
+Queencup
 Queen of the Meadow
 Quince
 Rain Lily
@@ -239,7 +239,7 @@ Rondeletia
 Rose of Sharon
 Roses
 Sage
-SaintJohn Wort
+St. John's Wort
 Scaevola
 Scented Geranium
 Scilla
@@ -262,7 +262,7 @@ Tobacco Plant
 Trachelium
 Trillium
 Triteleia
-Tritoniacrocata
+Tritonia Crocata
 Trollius
 Trumpet Vine
 Tuberose
@@ -287,7 +287,7 @@ Winter Jasmine
 Winterberry
 Wishbone Flower
 Woolly Violet
-Xanthocerassorbifolium
+Xanthoceras sorbifolium
 Xerophyllum
 Xylobium
 Xylosma

@@ -1,12 +1,12 @@
 class_name,warning,alt_name
-Abutilon,It has no toxic effects toward cats nor dogs!
-Acacia,It has no toxic effects toward cats nor dogs!
-Aconite,It is toxic toward cats, dogs, and even you!
-African Daisy,It has no toxic effects toward cats nor dogs!
-Agapanthus,It has minimal toxicity to animals unless eaten in quantity! 
-Ageratum,Sometimes called "Flossflower", is not edible and could cause irritation or illness if ingested!
-Alchemilla,It has no toxic effects toward cats nor dogs!
-Allium,It is toxic toward cats and dogs!
+Abutilon,It has no toxic effects toward cats nor dogs!,"Flowering Maple, Chinese Lantern, Indian Mallow"
+Acacia,It has no toxic effects toward cats nor dogs!,"Wattle, Mimosa, Thorntree"
+Aconite,It is toxic toward cats, dogs, and even you!,"Monkshood, Wolfsbane, Devil's Helmet, Blue Rocket"
+African Daisy,It has no toxic effects toward cats nor dogs!,"Barberton Daisy, Veldt Daisy, Transvaal Daisy, Gerber Daisy"
+Agapanthus,It has minimal toxicity to animals unless eaten in quantity!,"Flower of Love, African Lily, Lily of the Nile" 
+Ageratum,It is not edible and could cause irritation or illness if ingested!,"Flossflower"
+Alchemilla,It has no toxic effects toward cats nor dogs!,"Nine Hooks, Bear's Foot, Lion's Foot"
+Allium,It is toxic toward cats and dogs!,""
 Alstroemeria,Though not deadly, they can cause tummy or skin irritation when ingested by pets!
 Alyssum,It has no toxic effects toward cats nor dogs!
 Amaranthus,It has minimal toxicity to pets unless eaten in quantity!
@@ -183,118 +183,118 @@ Marigold,It has minimal toxicity to pets unless eaten in quantity!,"None"
 Matthiola,No clear information...,"None"
 Mayflower,No clear information...,"None"
 Meconopsis,It could be toxic towards cats and dogs!,"None"
-Mimosa,It could be toxic towards cats and dogs!,"None"
-Monk Hood,It is toxic towards cats and dogs!,"Monkshood"
-Moonflower Vine,It is toxic towards cats and dogs!,"None"
-Moraea,,"None"
-Morning Glory
-Moss Rose
-Narcissus
-Nasturtium
-Nemesia
-Nemophila
-Neoregelia
-Nerine
-New Zealand Tea Tree
-Nierembergia
-Nolana
-Oleander
-Olearia
-Orchid
-Oriental Lily
-Oriental Poppy
-Ornamental Cherry
-Ornithogalum
-Osteospermum
-Oxalis
-OxeyeDaisy
-Oyster Plant
-Painted Daisy
-Pansy
-Parodia
-Passion Flower
-Peace Lily
-Pelargonium
-Penstemon
-Peony
-Periwinkle
-Persian Buttercup
-Petunia
-Phlox
-Photinia
-Physostegia
-Pincushion Flower
-Pinks
-Poinsettia
-Polyanthus
-Poppy
-Potentilla
-Powder Puff
-Quaker Ladies
-Queen Cup
-Queen of the Meadow
-Quince
-Rain Lily
-Rock Rose
-Rondeletia
-Rose of Sharon
-Roses
-Sage
-SaintJohn Wort
-Scaevola
-Scented Geranium
-Scilla
-Sedum
-Shasta Daisy
-Silene
-Snapdragon
-Snowdrop
-Snowflake
-Soapwort
-Speedwell
-Starflower
-Statice
-Sunflower
-Sweet Pea
-Tea Rose
-Tiger Flower
-Tithonia
-Tobacco Plant
-Trachelium
-Trillium
-Triteleia
-Tritoniacrocata
-Trollius
-Trumpet Vine
-Tuberose
-Tulip
-Urn Plant
-Ursinia
-Uva Ursi
-Valerian
-Verbena
-Viburnum
-Viola
-Virginia Creeper
-Wallflower
-Wandflower
-Waterlilies
-Watsonia
-WaxPlant
-Wedelia
-Weigela
-Whirling Butterflies
-Winter Jasmine
-Winterberry
-Wishbone Flower
-Woolly Violet
-Xanthocerassorbifolium
-Xerophyllum
-Xylobium
-Xylosma
-Yarrow
-Yellow-eyed Grass
-Yellow Archangel
-Yellow Bell
-Zenobia
-Zinnia
+Mimosa,It could be toxic toward cats and dogs!,"None"
+Monk Hood,It is toxic toward cats and dogs!,"Monkshood"
+Moonflower Vine,It is toxic toward cats and dogs!,"None"
+Moraea,It is generally known to be toxic!,"None"
+Morning Glory,It is toxic toward cats and dogs!,"None"
+Moss Rose,It is toxic toward cats and dogs!,"Wild Portulaca, Rock Moss, Purslane, Pigwee, Pusley"
+Narcissus,It is toxic toward cats and dogs!,"Daffodil, Jonquil, Paper White"
+Nasturtium,It has no toxic effects toward cats nor dogs!,"Nose-Twister, Nose-Tweaker"
+Nemesia,It has no toxic effects toward cats nor dogs!,"None"
+Nemophila,It is generally known not to have any toxic effects toward cats nor dogs!,"Baby Blue Eyes"
+Neoregelia,It has no toxic effects toward cats nor dogs!,"Crimson Cup, Marbled Fingernail, Blushing Bromeliad, Ossifragi Vase, Miniature Marble Plant, Aregelia"
+Nerine,It is toxic toward cats and dogs!,"None"
+New Zealand Tea Tree,No clear information...,"None"
+Nierembergia,It has minimal toxicity to pets unless eaten in quantity!,"None"
+Nolana,No clear information...,"None"
+Oleander,It is toxic toward cats and dogs!,"Rose-Bay"
+Olearia,No clear information...,"None"
+Orchid,It has no toxic effects toward cats nor dogs!,"None"
+Oriental Lily,It is extremely toxic toward cats. While not as much toward dogs, it's better to avoid it!,"None"
+Oriental Poppy,It is toxic toward cats and dogs!,"None"
+Ornamental Cherry,It is toxic toward cats and dogs!,"Cherry Blossom"
+Ornithogalum,It is toxic toward cats and dogs!,"Orange Star"
+Osteospermum,It has no toxic effects toward cats nor dogs!,"African Daisy"
+Oxalis,It is toxic toward cats and dogs!,"Shamrock"
+Oxeye Daisy,It is toxic toward cats, dogs, and even you!,"None"
+Oyster Plant,It is toxic toward cats, dogs, and even you!,"Moses in the Cradle"
+Painted Daisy,It is toxic toward cats, dogs, and even you!,"None"
+Pansy,It has no toxic effects toward cats nor dogs!,"None"
+Parodia,It is generally known to have no toxic effects toward cats nor dogs!,"None"
+Passion Flower,It has no toxic effects toward cats nor dogs!,"None"
+Peace Lily,It is toxic toward cats and dogs!,"Mauna Loa Peace Lily"
+Pelargonium,It is toxic toward cats and dogs!,"Geranium"
+Penstemon,It could be toxic toward cats and dogs!,"Foxglove Beardtongue"
+Peony,It is toxic toward cats and dogs!,"None"
+Periwinkle,It is extremely toxic toward cats and dogs!,"Running Myrtle, Vinca"
+Persian Buttercup,It is toxic toward cats and dogs!,"Buttercup"
+Petunia,It has no toxic effects toward cats nor dogs!,"None"
+Phlox,It has no toxic effects toward cats nor dogs!,"Moss Phlox"
+Photinia,It is generally known not to have any toxic effects on cats nor dogs. Save for a few mild rashes.,"Red Robin"
+Physostegia,It is generally known not to have any toxic effects toward cats nor dogs!,"Obedient Plant"
+Pincushion Flower,It has no toxic effects toward cats nor dogs!,"None"
+Pinks,It is toxic toward cats and dogs!,"Carnation, Wild Carnation, Sweet William"
+Poinsettia,It is toxic toward cats and dogs!,"None"
+Polyanthus,No clear information...,"Primula"
+Poppy,It is toxic toward cats and dogs!,"None"
+Potentilla,It is generally known not to have any toxic effects toward cats nor dogs!,"Cinquefoil"
+Powder Puff,It is generally known not to have any toxic effects toward cats nor dogs!,"None"
+Quaker Ladies,It is generally known not to have any toxic effects toward cats nor dogs!,"None"
+Queencup,It has no toxic effects toward cats nor dogs!,"Bride's Bonnet"
+Queen of the Meadow,No clear information,"Meadowsweet"
+Quince,It is toxic toward dogs!,"None"
+Rain Lily,It is extremely toxic toward cats and dogs!,"Prairie Lily"
+Rock Rose,No clear information...,"None"
+Rondeletia,No clear information...,"None"
+Rose of Sharon,It has no toxic effects toward cats nor dogs!,"Hibiscus, Rose of China"
+Roses,It has no toxic effects toward cats nor dogs!,"None"
+Sage,It has no toxic effects toward cats nor dogs!,"Common Sage, Garden Sage"
+St. John's Wort,It is toxic toward cats and dogs!,"Klamath Weed"
+Scaevola,It has no toxic effects toward cats nor dogs!,"Fan Flower"
+Scented Geranium,It is toxic toward cats and dogs!,"Geraniums"
+Scilla,It is toxic toward cats and dogs!,"Squill"
+Sedum,It has no toxic effect toward cats nor dogs!,"Stonecrop"
+Shasta Daisy,It is toxic toward cats and dogs!,"None"
+Silene,No clear information...,"None"
+Snapdragon,It has no toxic effects toward cats nor dogs!,"Common Snapdragon"
+Snowdrop,It is toxic toward cats and dogs!,"None"
+Snowflake,It is toxic toward cats and dogs!,"None"
+Soapwort,It is toxic toward cats and dogs!,"None"
+Speedwell,It is generally known not to have any toxic effects toward cats nor dogs!,"Common Speedwell"
+Starflower,It is toxic toward cats, dogs, and even you!,"Star of Bethlehem"
+Statice,It has no toxic effects toward cats nor dogs!,"None"
+Sunflower,It has no toxic effects toward cats nor dogs!,"Swamp Sunflower"
+Sweet Pea,It has no toxic effects toward cats nor dogs. However, it is for horses!,"Perennial Pea, Everlasting Pea"
+Tea Rose,It has no toxic effects toward cats nor dogs!,"None"
+Tiger Flower,It is said that it has no toxic effects toward cats nor dogs!,"None"
+Tithonia,It has no toxic effects toward cats nor dogs!,"Mexican Sunflower"
+Tobacco Plant,It is toxic toward cats and dogs!,"Tree Tobacco, Nicotiana, Mustard Tree"
+Trachelium,It has no toxic effects toward cats nor dogs!,"Blue Throatwort"
+Trillium,It is toxic toward cats, dogs, and even you!,"None"
+Triteleia,It has no toxic effects toward cats nor dogs!,"None"
+Tritonia Crocata,No clear information...,"Bulbs"
+Trollius,It is mildly toxic toward cats and dogs!,"Globe Flower"
+Trumpet Vine,It is midly toxic toward cats and dogs!,"None"
+Tuberose,It is extremely toxic toward cats, dogs, and even you!,"None"
+Tulip,It is toxic toward cats and dogs!,"None"
+Urn Plant,It has no toxic effects toward cats nor dogs!,"None"
+Ursinia,No clear information...,"None"
+Uva Ursi,It is toxic toward cats and dogs!,"Bearberry"
+Valerian,It is used in medicine for cats and dogs. Use with moderation!,"Valerian Root"
+Verbena,It is known to be toxic toward cats and dogs!,"None"
+Viburnum,It is mildly toxic toward cats and dogs!,"None"
+Viola,It is known not to have any toxic effects toward cats nor dogs!,"None"
+Virginia Creeper,It is midly toxic toward cats, dogs, and even you!,"None"
+Wallflower,It is toxic toward cats and dogs!,"None"
+Wandflower,It is known to be toxic toward dogs!,"None"
+Waterlilies,It is known to be toxic toward dogs. However, not so much toward cats!,"Water Lily"
+Watsonia,No clear information...,"None"
+Wax Plant,It has no toxic effects toward cats nor dogs!,"Hindu Rope Plant, Percelain Flower"
+Wedelia,It is known to not have any toxic effects toward cats nor dogs!,"None"
+Weigela,It has no toxic effects toward cats nor dogs!,"None"
+Whirling Butterflies,It is known to not have any toxic effects toward cats nor dogs!,"Beeblossom"
+Winter Jasmine,It is generally known not to have any toxic effects toward cats nor dogs!,"None"
+Winterberry,It is toxic toward cats and dogs!,"English Holly, European Holly, Oregon Holly, Inkberry, American Holly"
+Wishbone Flower,It has no toxic effects toward cats nor dogs!,"None"
+Woolly Violet,It has no toxic effects toward cats nor dogs!,"None"
+Xanthoceras sorbifolium,No clear information...,"Yellowhorn, Goldenhorn, Chinese Flowering Chestnut"
+Xerophyllum,It is toxic toward cats and dogs!,"Bear Grass"
+Xylobium,No clear information...,"None"
+Xylosma,It has no toxic effects toward cats nor dogs!,"None"
+Yarrow,It is toxic toward cats and dogs!,"Milfoil, Soilder's Woundwort, Dog Daisy Thousand Seal, Devil's Nettle, Old Man's Pepper"
+Yellow-eyed Grass,No clear information...,"None"
+Yellow Archangel,No clear information...,"None"
+Yellow Bell,It is known not to have toxic effects toward dogs!,"None"
+Zenobia,No clear information...,"None"
+Zinnia,It has no toxic effects toward cats nor dogs!,"None"
