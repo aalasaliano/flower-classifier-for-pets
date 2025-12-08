@@ -33,6 +33,7 @@ st.markdown(f"""
 # ---------------------------------------------------
 # ✧ UI Header ✧
 # ---------------------------------------------------
+st.set_page_config(page_title="Flora4Pets", page_icon="🌷")
 st.markdown("### ✧ Welcome to the Magical Predictor ✧")
 st.title("Flora4Pets ✧")
 
