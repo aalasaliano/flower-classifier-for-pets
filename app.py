@@ -20,7 +20,6 @@ img_base64 = get_base64_image("stbackgroundz.jpg")
 
 st.markdown(f"""
     <style>
-    # background
     .stApp {{
         background-image: url("data:image/jpg;base64,{img_base64}");
         background-size: cover;
@@ -29,80 +28,6 @@ st.markdown(f"""
         background-attachment: fixed;
     }}
     
-    # overlay gelap
-    .stApp::before {{
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: -1;
-    }}
-    
-    # text jd putih ??? idk lemme try
-    .stApp {{
-        color: white !important;
-    }}
-    
-    # header + title
-    h1, h2, h3, h4, h5, h6 {{
-        color: white !important;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    }}
-    
-    # markdown
-    .stMarkdown {{
-        color: white !important;
-    }}
-    
-    # file uploader
-    .stFileUploader {{
-        background-color: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 10px;
-        backdrop-filter: blur(10px);
-    }}
-    
-    .stFileUploader label {{
-        color: white !important;
-        font-weight: bold;
-    }}
-    
-    # success box
-    .stSuccess {{
-        background-color: rgba(0, 200, 0, 0.2) !important;
-        color: white !important;
-        border: 2px solid #00ff00;
-        border-radius: 10px;
-        backdrop-filter: blur(10px);
-    }}
-    
-    # info box
-    .stInfo {{
-        background-color: rgba(0, 150, 255, 0.2) !important;
-        color: white !important;
-        border: 2px solid #00aaff;
-        border-radius: 10px;
-        backdrop-filter: blur(10px);
-    }}
-    
-    # warning box
-    .stWarning {{
-        background-color: rgba(255, 200, 0, 0.2) !important;
-        color: white !important;
-        border: 2px solid #ffcc00;
-        border-radius: 10px;
-        backdrop-filter: blur(10px);
-    }}
-    
-    # image capt
-    .stImage > div {{
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 10px;
-        border-radius: 10px;
-    }}
     </style>
     """, unsafe_allow_html=True)
 
