@@ -35,7 +35,7 @@ st.markdown(f"""
 # ✧ UI Header ✧
 # ---------------------------------------------------
 st.markdown("### ✧ Welcome to the Magical Predictor ✧")
-st.title("ResNet Image Classifier ✧")
+st.title("Flora4Pets ✧")
 
 # ---------------------------------------------------
 # ✧ Device ✧
