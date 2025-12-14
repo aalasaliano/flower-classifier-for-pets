@@ -162,7 +162,7 @@ if image:
         pred = model(imgtensor)
 
     predidx = pred.argmax(dim=1).item()
-    predclass - class_names[predidx]
+    predclass = class_names[predidx]
 
     st.success(f'Prediction: **{predclass}**')
 
