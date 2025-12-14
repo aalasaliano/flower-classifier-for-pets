@@ -68,7 +68,6 @@ st.markdown(f"""
 # ✧ UI Header ✧
 # ---------------------------------------------------
 st.set_page_config(page_title="Flora4Pets", page_icon="🌷")
-st.markdown("### ✧ Welcome to the Magical Predictor ✧")
 st.title("Flora4Pets ✧")
 
 # ---------------------------------------------------
@@ -143,27 +142,35 @@ transform = T.Compose([
 # ---------------------------------------------------
 # ✧ File Upload ✧
 # ---------------------------------------------------
-uploaded = st.file_uploader("Upload file here", type=["jpg","png"])
+tab1, tab2 = st.tabs(["Upload Image", "Take Photo"])
+image = None
 
-if uploaded:
-    image = Image.open(uploaded).convert("RGB")
-    st.image(image, caption="Flower image you uploaded.")
+with tab1:
+    uploaded = st.file_uploader("Upload file here", type=["jpg", "png"])
+    if uploaded:
+        image = Image.open(uploaded).convert("RGB")
+        st.image(image, caption="Flower image you uploaded.")
+with tab2:
+    cameraphoto = st.camera_input("Take a picture of the flower")
+    if cameraphoto:
+        image = Image.open(cameraphoto).convert("RGB")
+        st.image(image, caption="Flower image you took.")
 
-    img_tensor = transform(image).unsqueeze(0).to(device)
-
+if image:
+    imgtensor = transform(image).unsqueeze(0).to(device)
     with torch.no_grad():
-        pred = model(img_tensor)
+        pred = model(imgtensor)
 
-    pred_idx = pred.argmax(dim=1).item()
-    pred_class = class_names[pred_idx]
+    predidx = pred.argmax(dim=1).item()
+    predclass - class_names[predidx]
 
-    st.success(f"Prediction: **{pred_class}**")
+    st.success(f'Prediction: **{predclass}**')
 
     # ---------------------------------------------------
     # ✧ Lookup toxicity info ✧
     # ---------------------------------------------------
-    if pred_class in toxicity_dict:
-        warning_msg = toxicity_dict[pred_class]
+    if predclass in toxicity_dict:
+        warning_msg = toxicity_dict[predclass]
 
         # If the message contains anything (safe OR dangerous),
         # just show it exactly as written!
