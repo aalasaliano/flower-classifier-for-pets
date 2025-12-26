@@ -78,15 +78,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # ---------------------------------------------------
 # ✧ Load Model ✧
 # ---------------------------------------------------
-model = models.efficientnet_b0(weights=None)
-
-num_features = model.classifier[1].in_features
-model.classifier[1] = nn.Linear(num_features, 299)
-
-state_dict = torch.load("model_efficientNetV3.pth", map_location=device, weights_only=False)
-model.load_state_dict(state_dict)
-
-model = model.to(device)
+model = torch.load("model_efficientNetV3.pth", map_location=device, weights_only=False)
 model.eval()
 
 # ---------------------------------------------------
